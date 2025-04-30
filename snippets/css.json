@@ -467,6 +467,22 @@
         "prefix": "maw",
         "body": "max-width: ${0:1px};"
     },
+    "object-fit": {
+        "prefix": "of",
+        "body": "object-fit: ${1|contain,cover,fill,none,scale-down|};"
+    },
+    "object-fit: cover": {
+        "prefix": "ofc",
+        "body": "object-fit: cover;"
+    },
+    "object-fit: contain": {
+        "prefix": "ofco",
+        "body": "object-fit: contain;"
+    },
+    "object-fit: fill": {
+        "prefix": "off",
+        "body": "object-fit: fill;"
+    },
     "opacity": {
         "prefix": "opa",
         "body": "opacity: ${0:0};"
