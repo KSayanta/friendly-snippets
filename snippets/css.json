@@ -407,9 +407,33 @@
         "prefix": "mar",
         "body": "margin: ${0:0};"
     },
+    "margin-block": {
+        "prefix": "marbl",
+        "body": "margin-block: ${0:0};"
+    },
+    "margin-block-end": {
+        "prefix": "marble",
+        "body": "margin-block-end: ${0:0};"
+    },
+    "margin-block-start": {
+        "prefix": "marbls",
+        "body": "margin-block-start: ${0:0};"
+    },
     "margin-bottom": {
         "prefix": "marb",
         "body": "margin-bottom: ${0:0};"
+    },
+    "margin-inline": {
+        "prefix": "marin",
+        "body": "margin-inline: ${0:0};"
+    },
+    "margin-inline-end": {
+        "prefix": "marine",
+        "body": "margin-inline-end: ${0:0};"
+    },
+    "margin-inline-start": {
+        "prefix": "marins",
+        "body": "margin-inline-start: ${0:0};"
     },
     "margin-left": {
         "prefix": "marl",
@@ -487,9 +511,33 @@
         "prefix": "pad",
         "body": "padding: ${0:0};"
     },
+    "padding-block": {
+        "prefix": "padbl",
+        "body": "padding-block: ${0:0};"
+    },
+    "padding-block-end": {
+        "prefix": "padble",
+        "body": "padding-block-end: ${0:0};"
+    },
+    "padding-block-start": {
+        "prefix": "padbls",
+        "body": "padding-block-start: ${0:0};"
+    },
     "padding-bottom": {
         "prefix": "padb",
         "body": "padding-bottom: ${0:0};"
+    },
+    "padding-inline": {
+        "prefix": "padin",
+        "body": "padding-inline: ${0:0};"
+    },
+    "padding-inline-end": {
+        "prefix": "padine",
+        "body": "padding-inline-end: ${0:0};"
+    },
+    "padding-inline-start": {
+        "prefix": "padins",
+        "body": "padding-inline-start: ${0:0};"
     },
     "padding-left": {
         "prefix": "padl",
