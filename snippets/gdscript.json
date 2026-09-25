@@ -98,10 +98,25 @@
         "body": ["signal ${1:signalname}(${2:args})"]
     },
 
-    "export variables": {
-        "prefix": "export",
+    "export variable": {
+        "prefix": "ex",
+        "body": ["@export var ${1:name}: ${2:type}"]
+    },
+
+    "export group": {
+        "prefix": "exg",
+        "body": ["@export_group(\"${1:name}\", \"${2:prefix}\")"]
+    },
+
+    "export category": {
+        "prefix": "exc",
+        "body": ["@export_category(\"${1:name}\")"]
+    },
+
+    "export range": {
+        "prefix": "exr",
         "body": [
-            "export(${1:type}${2:,other_configs}) var ${3:name}${4: = }${5:}${6: setget }"
+            "@export_range(${1:min}, ${2:max}, ${3:step}) var ${4:name}: ${5:type}"
         ]
     },
 
@@ -140,10 +155,5 @@
             "\tpass",
             ""
         ]
-    },
-
-    "pass statement": {
-        "prefix": "pass",
-        "body": ["pass"]
     }
 }
